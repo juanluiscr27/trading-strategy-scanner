@@ -16,11 +16,11 @@ Scan market data and filter stocks based on the trading strategy criteria
 ## Dependencies
 This Scanner Notebook is built using Python 3.10 and depends on the follow libraries:
 
-Numpy
-Pandas
-Yfinance
-Jupyter Lab
-IPython Kernel 
+* Numpy
+* Pandas
+* Yfinance
+* Jupyter Lab
+* IPython Kernel 
 
 ## Project Setup
 
@@ -43,6 +43,7 @@ pip install -r requirements.txt
 ```
 
 3. Create Kernel for Jupyter Lab
+
 We need to create a kernel for Jupyter Lab inside the virtual environment.
 ```shell
 python -m ipykernel install --user --name venv --display-name "Python (venv)"
